@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.square {
+    display: flex;
+    flex-direction: row;
+    width: 337px;
+    height: auto;
+    background-color: lightgray;
+    border: 10px outset rgb(222, 219, 219);
+    overflow: hidden;
+    
+}
+
+div {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px dashed black;
+}
+
+.blue {
+
+    color: blue;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.green {
+   
+    color: green;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.red {
+    
+    color: red;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shadow {
+    display: block;
+    border: 1px outset white;
+    color: lightgrey;
+
+}
+
+.blue2:hover {
+    color: blue;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px dashed black;
+}
+
+.green2:hover {
+    color: green;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px dashed black;
+}
+
+.red2:hover {
+    color: red;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px dashed black;
+}
+
+.grey:hover {
+    border: 1px dashed black;
+}
+
+
+
+
+
+
+
+
+
